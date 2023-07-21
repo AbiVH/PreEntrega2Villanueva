@@ -94,16 +94,16 @@ main {
   grid-row-gap: 20px;
 }
 
-#sectionUno div {
+/* #sectionUno div {
   background-color: aqua;
   border: 2px solid black;
   height: 40%;
   display: grid;
   justify-items: center;
   align-items: center;
-}
+} */
 
-#sectionUno {
+/* #sectionUno {
   background-color: rgb(255, 159, 159, 0.315);
   grid-area: sectionUno;
   display: grid;
@@ -117,19 +117,19 @@ main {
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   padding: 10px;
-}
+} */
 
-#pro3 {
+/* #pro3 {
   grid-area: pro3;
   justify-items: center;
   align-content: center;
-}
+} */
 
-#sectionDos {
-  /* background-color: gold;
+/* #sectionDos { */
+/* background-color: gold;
   grid-area: sectionDos; */
 
-  background-color: rgb(255, 217, 0, 0.315);
+/* background-color: rgb(255, 217, 0, 0.315);
   grid-area: sectionDos;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -157,7 +157,7 @@ main {
   grid-area: pro6;
   justify-items: center;
   align-content: center;
-}
+} */
 
 aside {
   background-color: rgb(255, 217, 0, 0.315);
@@ -166,7 +166,7 @@ aside {
 }
 
 footer {
-  background-color: rgb(255, 217, 0, 0.315);
+  background-color: rgba(255, 217, 0, 0);
   grid-area: footer;
   display: grid;
   justify-content: center;

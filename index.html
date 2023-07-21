@@ -17,9 +17,19 @@
   </head>
   <body>
     <header class="container-fluid">
-      <div class="row h-100">
-        <img id="Logo" class="col-3" src="./assets/espadas.webp" alt="Logo" />
-        <h1 class="col-9">HISTORIA DEL KUNG FU</h1>
+      <div class="row h-100 w-100">
+        <img
+          id="Logo"
+          class="col-3 d-flex justify-content-center align-items-center"
+          src="./assets/espadas.webp"
+          alt="Logo"
+        />
+        <div
+          class="row h-100 col-9 d-flex justify-content-center align-items-center"
+        >
+          <h1 class="col-12 text-center">HISTORIA DEL KUNG FU</h1>
+          <h2 class="col-12 text-center text-white">功夫历史</h2>
+        </div>
       </div>
     </header>
     <nav>
@@ -35,19 +45,106 @@
       </ul>
     </nav>
     <main>
-      <section id="sectionUno">
-        <!-- <div id="pro1">PRODUCTO 1</div>
-        <div id="pro2">PRODUCTO 2</div>
-        <div id="pro3">PRODUCTO 3</div> -->
+      <!-- Primera section -->
+
+      <section class="container px-15">
+        <div class="row">
+          <div class="col">
+            <p class="text-justify text-white">
+              En esta sección, profundiza en la fascinante historia del kung fu.
+              Explora sus orígenes legendarios en los monasterios budistas de
+              Shaolin, donde los monjes desarrollaron el arte marcial para
+              protegerse y mantener la salud física y mental. Describe cómo el
+              kung fu se extendió por toda China y se diversificó en una amplia
+              gama de estilos a lo largo del tiempo. Puedes incluir información
+              sobre figuras históricas importantes, como Bodhidharma y Zhang
+              Sanfeng, cuyas contribuciones influyeron en el desarrollo del kung
+              fu.
+            </p>
+          </div>
+        </div>
       </section>
-      <section id="sectionDos">
-        <!-- <div id="pro4">PRODUCTO 4</div>
-        <div id="pro5">PRODUCTO 5</div>
-        <div id="pro6">Prueba de github</div> -->
+
+      <!-- Segundo carrusel -->
+      <section id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </section>
+
       <aside>ASIDE</aside>
     </main>
-    <footer>© 2023 Abi Villanueva. Todos los derechos reservados</footer>
+    <footer>
+      <p class="text-white">
+        © 2023 Abi Villanueva. Todos los derechos reservadoss
+      </p>
+    </footer>
 
     <!-- Bootstrap JavaScript -->
     <script
