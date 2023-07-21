@@ -29,9 +29,14 @@ header {
   padding: 20px;
 }
 
+.quitarScroll {
+  --bs-gutter-x: 0;
+}
+
 #Logo {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
+  justify-content: end;
 }
 
 header h1 {
@@ -101,77 +106,21 @@ main {
   grid-row-gap: 20px;
 }
 
+.carretePosicion {
+  .carousel-inner {
+    text-align: center;
+  }
+  .carousel .item > img {
+    display: inline-block;
+  }
+}
+
 .carreteDimension {
   height: 35vh;
 }
 
-/* #sectionUno div {
-  background-color: aqua;
-  border: 2px solid black;
-  height: 40%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-} */
-
-/* #sectionUno {
-  background-color: rgb(255, 159, 159, 0.315);
-  grid-area: sectionUno;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    "pro1 pro2"
-    "pro3 pro3";
-  justify-content: center;
-  align-items: center;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  padding: 10px;
-} */
-
-/* #pro3 {
-  grid-area: pro3;
-  justify-items: center;
-  align-content: center;
-} */
-
-/* #sectionDos { */
-/* background-color: gold;
-  grid-area: sectionDos; */
-
-/* background-color: rgb(255, 217, 0, 0.315);
-  grid-area: sectionDos;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    "pro4 pro5"
-    "pro6 pro6";
-  justify-content: center;
-  align-items: center;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  padding: 10px;
-}
-
-#sectionDos div {
-  background-color: aqua;
-  border: 2px solid black;
-  height: 40%;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
-
-#pro6 {
-  grid-area: pro6;
-  justify-items: center;
-  align-content: center;  
-} */
-
 aside {
-  background-color: rgba(255, 217, 0, 0);
+  background-color: rgba(210, 0, 0, 0.664);
   grid-area: aside;
 
   /* height: 100%; */
@@ -180,8 +129,8 @@ aside {
 .centrarAside {
   display: flex;
   text-align: justify;
+  padding-top: 20px;
   vertical-align: center;
-  color: red;
 }
 
 footer {
