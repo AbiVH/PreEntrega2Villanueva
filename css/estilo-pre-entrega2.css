@@ -24,7 +24,18 @@ body {
 
 header {
   background-color: rgba(255, 255, 255, 0);
+  display: grid;
   grid-area: header;
+}
+
+#Logo {
+  height: 150px;
+  width: 150px;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
 }
 
 nav {
@@ -37,9 +48,9 @@ nav {
   grid-area: nav;
 }
 
-nav::before {
+/* nav::before {
   content: "MENÚ";
-}
+} */
 
 nav ul {
   padding: 10px;
@@ -53,6 +64,17 @@ nav ul li {
   border-radius: 10px;
   justify-content: center;
   margin: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.colorNav:hover {
+  background-color: red;
+  color: gold;
+}
+
+nav ul li a:hover {
+  color: gold;
 }
 
 nav ul li a {
