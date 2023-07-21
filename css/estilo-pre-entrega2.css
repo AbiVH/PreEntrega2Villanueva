@@ -5,6 +5,10 @@
 }
 
 body {
+  /* background-image: url(../assets/kungfu1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat; */
+  background-color: black;
   display: grid;
   height: 100vh;
   grid-template-rows: 0.8fr repeat(2, 1fr) 0.6fr;
@@ -19,12 +23,17 @@ body {
 }
 
 header {
-  background-color: gold;
+  background-color: rgba(255, 255, 255, 0);
   grid-area: header;
 }
 
 nav {
-  background-color: gold;
+  background-image: url(../assets/logo-jijan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 100px;
+  background-color: rgba(0, 0, 0, 0);
   grid-area: nav;
 }
 
@@ -38,16 +47,17 @@ nav ul {
 
 nav ul li {
   display: grid;
-  background-color: rgb(227, 36, 231);
+  background-color: rgb(0, 0, 129);
+  color: white;
   list-style: none;
   border-radius: 10px;
   justify-content: center;
-  margin: 5px;
+  margin: 15px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 main {
@@ -72,7 +82,7 @@ main {
 }
 
 #sectionUno {
-  background-color: gold;
+  background-color: rgb(255, 159, 159, 0.315);
   grid-area: sectionUno;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -97,7 +107,7 @@ main {
   /* background-color: gold;
   grid-area: sectionDos; */
 
-  background-color: gold;
+  background-color: rgb(255, 217, 0, 0.315);
   grid-area: sectionDos;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -128,13 +138,13 @@ main {
 }
 
 aside {
-  background-color: gold;
+  background-color: rgb(255, 217, 0, 0.315);
   grid-area: aside;
   /* height: 100%; */
 }
 
 footer {
-  background-color: gold;
+  background-color: rgb(255, 217, 0, 0.315);
   grid-area: footer;
   display: grid;
   justify-content: center;
@@ -156,7 +166,7 @@ footer {
   }
 
   #sectionUno {
-    background-color: gold;
+    background-color: rgb(255, 217, 0, 0.315);
     grid-area: sectionUno;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
