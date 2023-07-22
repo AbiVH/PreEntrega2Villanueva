@@ -5,9 +5,6 @@
 }
 
 body {
-  /* background-image: url(../assets/kungfu1.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat; */
   background-color: black;
   display: grid;
   height: 100vh;
@@ -27,6 +24,7 @@ header {
   display: grid;
   grid-area: header;
   padding: 20px;
+  font-family: "Microsoft YaHei", sans-serif;
 }
 
 .quitarScroll {
@@ -122,6 +120,7 @@ main {
 aside {
   background-color: rgba(210, 0, 0, 0.664);
   grid-area: aside;
+  box-sizing: border-box;
 
   /* height: 100%; */
 }
@@ -194,4 +193,15 @@ footer {
     border: 2px solid black;
     height: auto;
   }
+}
+
+.container,
+.row,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 0;
 }
