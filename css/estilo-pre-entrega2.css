@@ -127,10 +127,6 @@ aside {
   /* height: 100%; */
 }
 
-aside div div h2 {
-  text-align: center;
-}
-
 .centrarAside {
   display: flex;
   text-align: justify;
